@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Validator</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Is That a Real Phone Number?</h1>
+        <span class="subtitle">Enter a phone number to determine wether it is a valid US number...</span>
+        <div id="phone">
+            <div id="to-text">To:</div>
+            <div id="screen"></div>
+            <div id="island"></div>
+
+            <input type="text" id="user-input" placeholder="1 555-555-555">
+            <button type="button" id="check-btn">Check
+                <div class="tail hidden"></div>
+            </button>
+            <button type="button" id="clear-btn">Clear
+                <div class="tail hidden"></div>
+            </button>
+        </div>
+        <div id="results-div" class="hidden"></div>
+    </main>
+    <button id="info-btn">?</button>
+    <footer class="hidden">
+        <h3>How does this work?</h3>
+        <button id="footer-close-btn" type="button">X</button>
+        <p>The app receives the user's phone number input text, removes any white space, dashes, and parenthesis, and coverts any letters
+            to their appropriate number values. The length of this number is then checked. If the length matches the standard length of a
+            phone number with no country code, or the length of a number with a country code, and the first digit is 1 (the US country code), the number is valid!</p>
+            <p><a href="original-script.js" download="">Download</a> Source Code</p>
+    </footer>
+    <script src="original-script.js"></script>
+</body>
+</html>

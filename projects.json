@@ -1,0 +1,19 @@
+
+    {
+        "projectName": "Seas of Rebellion",
+        "allowsIframe": false,
+        "link": "`<iframe src="https://store.steampowered.com/widget/2618690/" frameborder="0"></iframe>`",
+        "description": "This is a short description of the project."
+    },
+    {
+        "projectName": "Yes simulator?",
+        "allowsIframe": true,
+        "link": "/Projects/Telephone Number Validator/index.html",
+        "description": "This is a short description of the project."
+    },
+    {
+        "projectName": "I'm fat",
+        "allowsIframe": true,
+        "link": "/Projects/Pokémon Search App/index.html",
+        "description": "This is a short description of the project."
+    }
