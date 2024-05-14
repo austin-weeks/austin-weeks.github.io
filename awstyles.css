@@ -38,6 +38,11 @@ html {
         font-size: 14px;
     }
 }
+@media only screen and (max-width: 300px) {
+    html {
+        font-size: 12px;
+    }
+}
 body {
     margin: 0;
     padding: 0;
@@ -107,16 +112,19 @@ section {
 }
 
 #about {
-    height: 88vh;
+    height: 95vh;
+    position: relative;
 }
 .about-heading {
-    top: 25%;
-    position: relative;
+    top: 22%;
+    position: absolute;
+    width: 100vw;
 }
 .about-trail {
     font-size: 1rem;
-    top: 51%;
-    position: relative;
+    top: 92%;
+    position: absolute;
+    width: 100vw;
 }
 
 #projects-display {
@@ -129,8 +137,10 @@ section {
     margin: 1rem auto;
 }
 .project-preview {
-    width: 450px;
-    height: 450px;
+    max-width: 450px;
+    width: 85vw;
+    max-height: 450px;
+    height: 85vw;
     background-color: var(--dark-grey);
     border-radius: 8px;
     padding: 1rem;
@@ -143,8 +153,8 @@ section {
     --scale-factor: 0.6;
     overflow: hidden;
     margin: auto;
-    width: 390px;
-    height: 275px;
+    width: 95%;
+    height: 70%;
     border-radius: 5px;
 }
 iframe {
