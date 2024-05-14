@@ -35,12 +35,12 @@ html {
 }
 @media only screen and (max-width: 400px) {
     html {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 @media only screen and (max-width: 300px) {
     html {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 body {
