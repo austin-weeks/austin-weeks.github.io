@@ -134,7 +134,7 @@ section {
     flex-wrap: wrap;
     gap: 1.5rem;
     width: 90%;
-    margin: 1rem auto;
+    margin: 1rem auto 1.5rem;
 }
 .project-preview {
     max-width: 450px;
@@ -167,7 +167,13 @@ iframe {
     font-size: .9rem;
 }
 
-
+.inline-div {
+    display:inline-block;
+}
+/* #contact {
+    height: 82vh;
+    position: relative;
+} */
 
 
 .inline-icon {
