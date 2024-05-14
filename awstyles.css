@@ -23,6 +23,21 @@ html {
     background-color: var(--light-black);
     background-attachment: fixed;
 }
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 14px;
+    }
+}
 body {
     margin: 0;
     padding: 0;
@@ -67,7 +82,7 @@ section {
 }
 
 .huge-text {
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 .page-heading {
     font-size: 4.5rem;
@@ -100,7 +115,7 @@ section {
 }
 .about-trail {
     font-size: 1rem;
-    top: 55%;
+    top: 51%;
     position: relative;
 }
 
