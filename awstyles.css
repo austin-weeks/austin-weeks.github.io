@@ -3,6 +3,7 @@
     --black: #0b0b0b;
     --light-black: #18161d;
     --dark-grey: #242229;
+    --light-grey: #36343c;
     --dark-purple: #150050;
     --purple: #3F0071;
     --bright-purple: #610094;
@@ -238,4 +239,22 @@ iframe {
     font-size: 1.05em;
     top: .13em;
     position: relative;
+}
+
+.mute-button {
+    position: fixed;
+    right: .5rem;
+    bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-grey);
+    width: 2.7rem;
+    height: 2.7rem;
+    font-size: 1.6rem;
+    border-radius: 100%;
+}
+.mute-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
