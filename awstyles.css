@@ -170,8 +170,10 @@ section {
     margin: auto;
     width: 95%;
     height: 70%;
-    min-height: 13em;
     border-radius: 5px;
+}
+.project-full .iframe-container {
+    min-height: 13em;
 }
 iframe {
     transform: scale(var(--scale-factor));
@@ -187,7 +189,7 @@ iframe {
     .project-content {
         grid-template-columns: 1fr;
     }
-    .iframe-container {
+    .project-full .iframe-container {
         min-height: 18em;
     }
 }
