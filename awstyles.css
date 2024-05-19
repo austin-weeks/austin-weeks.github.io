@@ -113,6 +113,7 @@ section {
 
 #about {
     height: 95vh;
+    min-height: 275px;
     position: relative;
 }
 .about-heading {
@@ -125,6 +126,22 @@ section {
     top: 92%;
     position: absolute;
     width: 100vw;
+}
+@media only screen and (max-height: 500px) {
+    .about-heading {
+        top: 10%;
+    }
+    .about-trail {
+        top: 88%;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .about-heading {
+        top: -3%;
+    }
+    .about-trail {
+        top: 85%;
+    }
 }
 
 #projects-preview-display {
