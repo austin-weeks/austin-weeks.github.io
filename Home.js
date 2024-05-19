@@ -20,4 +20,3 @@ window.addEventListener("scroll", () => {
     viewWorkText.classList.add(fadeOutAnims);
     console.log(viewWorkText)
 });
-

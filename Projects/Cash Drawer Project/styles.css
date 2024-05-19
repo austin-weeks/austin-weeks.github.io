@@ -1,0 +1,155 @@
+:root {
+    --page-color: rgb(235, 235, 235);
+    --background: rgb(214, 214, 214);
+    --shadow: rgb(181, 181, 181);
+    --black: rgb(21, 21, 21);
+    --money-green: rgb(5, 156, 5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--page-color);
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Platypi', serif;
+}
+h2 {
+    margin: -.5em 0 .5em;
+}
+body {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 1.3rem;
+}
+#purchase-price {
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    max-width: 575px;
+    margin: 1.2rem auto;
+}
+.input-div {
+    position: relative;
+    width: 12rem;
+    margin: auto;
+}
+input {
+    background: none;
+    border: none;
+    border-bottom: 5px solid var(--money-green);
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+    height: 2rem;
+    width: 100%;
+    text-align: right;
+}
+.ph-currency-dollar {
+    top: 2.1em;
+    left: -.05em;
+    position: absolute;
+    font-size: 1.8rem;
+}
+
+button {
+    height: 2.2rem;
+    width: 12rem;
+    font-size: 1.2rem;
+}
+.left-space {
+    padding-left: .3em;
+}
+
+i {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: .18em;
+    font-size: 1.2em;
+}
+.big {
+    font-size: 2.5rem;
+}
+
+.background-box {
+    background-color: var(--background);
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 25px;
+    border: 1px solid var(--black);
+    box-shadow: 0 0 5px var(--shadow);
+}
+
+.currency {
+    font-weight: bold;
+}
+.amount:before {
+    content: "$";
+}
+
+.red {
+    color: rgb(161, 43, 43);
+}
+.green {
+    color: rgb(15, 131, 15);
+}
+
+#change-due {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.change-display {
+    position: relative;
+    width: 5rem;
+    height: 6rem;
+    margin: .2rem;
+}
+.change-icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.coin-value {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 30%;
+    left: -9%;
+    width: 100%;
+    height: 100%;
+}
+.dollar-value {
+    font-size: 1.3rem;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.quantity {
+    margin-top: -.75em;
+    padding: 0;
+    font-size: 1.4rem;
+}
+.quantity:before {
+    content: "X ";
+    font-size: .5em;
+}
+@media only screen and (max-width: 520px) {
+    html {
+        font-size: 16px;
+    }
+}
