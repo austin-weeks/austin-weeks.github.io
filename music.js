@@ -2,7 +2,7 @@ const playingIcon = '<i class="ph-bold ph-speaker-high"></i>';
 const mutedIcon = '<i class="ph-bold ph-speaker-simple-x"></i>';
 
 const musicKey = "allowMusic";
-const musicEnabled = localStorage.getItem(musicKey) == "true";
+const musicEnabled = localStorage.getItem(musicKey) === null ? true : localStorage.getItem(musicKey) == "true";
 console.log(musicEnabled);
 let isMuted = !musicEnabled;
 
