@@ -65,6 +65,10 @@ section {
   margin-bottom: 4rem;
 }
 
+.no-bottom-margin {
+  margin-bottom: 1rem;
+}
+
 .link:hover {
   color: #ffffff;
   border-bottom: 1px solid #FB2576;
@@ -162,7 +166,7 @@ section {
   justify-content: center;
   gap: 1.5rem;
   width: 90%;
-  margin: 1rem auto 1.5rem;
+  margin: 1rem auto 0;
 }
 
 .project-preview, .project-full {
