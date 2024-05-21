@@ -35,6 +35,12 @@ const projects = [
         ]
     },
     {
+        projectName: "Flappy Turk (WIP)",
+        link: "/Projects/Flappy Turk/index.html",
+        shortDescription: "Flappy Bird clone built with a Turkish friend.",
+        bulletPoints: []
+    },
+    {
         projectName: "Phone Number Validator",
         link: "/Projects/Telephone Number Validator/index.html",
         shortDescription: "Processes user input and returns a formatted US phone number.",
