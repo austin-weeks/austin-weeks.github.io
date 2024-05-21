@@ -38,7 +38,9 @@ const projects = [
         projectName: "Flappy Turk (WIP)",
         link: "/Projects/Flappy Turk/index.html",
         shortDescription: "Flappy Bird clone built with a Turkish friend.",
-        bulletPoints: []
+        bulletPoints: [
+            
+        ]
     },
     {
         projectName: "Phone Number Validator",
