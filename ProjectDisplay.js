@@ -34,14 +34,14 @@ const projects = [
             "Features a dynamic list of pokémon to select that populates as the user requests."
         ]
     },
-    {
-        projectName: "Flappy Turk (WIP)",
-        link: "/Projects/Flappy Turk/index.html",
-        shortDescription: "Flappy Bird clone built with a Turkish friend.",
-        bulletPoints: [
+    // {
+    //     projectName: "Flappy Turk (WIP)",
+    //     link: "/Projects/Flappy Turk/index.html",
+    //     shortDescription: "Flappy Bird clone built with a Turkish friend.",
+    //     bulletPoints: [
             
-        ]
-    },
+    //     ]
+    // },
     {
         projectName: "Phone Number Validator",
         link: "/Projects/Telephone Number Validator/index.html",
