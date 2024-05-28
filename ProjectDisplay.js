@@ -109,7 +109,7 @@ function loadPreviews() {
 function loadFullProjectDisplays() {
     for (const proj of projects) {
         console.log(proj);
-        const bullets = proj["bulletPoints"].length > 0 ? `<div class="bullet-points"><ul>
+        const bullets = proj["bulletPoints"] && proj["bulletPoints"].length > 0 ? `<div class="bullet-points"><ul>
                 <li>${proj["bulletPoints"].join("</li><li>")}</li></ul></div>` : "";
         projectsDisplay.innerHTML +=
             `<div class="project-full shadow-border">
