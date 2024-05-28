@@ -15,12 +15,12 @@ const projects = [
     },
     {
         projectName: "Drum Sound Pad",
-        link: "http://austin-weeks.github.io/drum-machine",
+        link: "https://austin-weeks.github.io/drum-machine",
         shortDescription: "A virtual sound pad! Unleash your musical creativity. Built with React."
     },
     {
         projectName: "Quote Generator",
-        link: "http://austin-weeks.github.io/random-quote-machine",
+        link: "https://austin-weeks.github.io/random-quote-machine",
         shortDescription: "Dynamically displays a random quote upon request. Built with React."
     },
     {
@@ -35,7 +35,7 @@ const projects = [
     },
     {
         projectName: "Markdown Previewer",
-        link: "http://austin-weeks.github.io/-markdown-previewer",
+        link: "https://austin-weeks.github.io/-markdown-previewer",
         shortDescription: "Allows users to input Github-style markdown and displays the corresponding HTML. Built with React."
     },
     {
