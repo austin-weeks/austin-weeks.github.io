@@ -14,9 +14,14 @@ const projects = [
         ]
     },
     {
+        projectName: "Calculator",
+        link: "https://austin-weeks.github.io/calculator",
+        shortDescription: "A simple online calculator. Involves state management and string parsing using regex.  Built with React & TypeScript."
+    },
+    {
         projectName: "Drum Sound Pad",
         link: "https://austin-weeks.github.io/drum-machine",
-        shortDescription: "A virtual sound pad! Unleash your musical creativity. Built with React."
+        shortDescription: "A virtual sound pad! Unleash your musical creativity. Built with React & TypeScript."
     },
     {
         projectName: "Quote Generator",
@@ -36,7 +41,7 @@ const projects = [
     {
         projectName: "Markdown Previewer",
         link: "https://austin-weeks.github.io/-markdown-previewer",
-        shortDescription: "Allows users to input Github-style markdown and displays the corresponding HTML. Built with React."
+        shortDescription: "Allows users to input Github-style markdown and displays the corresponding HTML. Built with React & TypeScript."
     },
     {
         projectName: "Pokémon Mini-Wiki",
