@@ -29,6 +29,11 @@ const projects = [
         shortDescription: "Dynamically displays a random quote upon request. Built with React."
     },
     {
+        projectName: "Pomodoro Timer",
+        link: "https://austin-weeks.github.io/pomodoro-timer",
+        shortDescription: "A pomodoro-style productivity timer. Built with React & TypeScript."
+    },
+    {
         projectName: "Easy Change Calculator",
         link: "/Projects/Cash Drawer Project/index.html",
         shortDescription: "Displays a visual representation of change for retail transactions.",
