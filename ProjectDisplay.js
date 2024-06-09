@@ -14,6 +14,11 @@ const projects = [
         ]
     },
     {
+        projectName: "Chess",
+        link: "https://austin-weeks.github.io/chess-game",
+        shortDescription: "The classic game of chess! Perfect for local play."
+    },
+    {
         projectName: "Calculator",
         link: "https://austin-weeks.github.io/calculator",
         shortDescription: "A simple online calculator. Involves state management and string parsing using regex.  Built with React & TypeScript."
