@@ -20,8 +20,8 @@ const projects = [
     },
     {
         projectName: "Data Visualizations",
-        link: "https://austin-weeks.github.io/D3-Data-Visualizations",
-        shortDescription: "A collection of data visualizations created using D3.js."
+        link: "https://austin-weeks.github.io/D3-Data-Visualization",
+        shortDescription: "A collection of data visualizations created using D3.js and presented with a retro aesthetic."
     },
     {
         projectName: "Calculator",
