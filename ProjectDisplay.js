@@ -19,6 +19,11 @@ const projects = [
         shortDescription: "The classic game of chess! Perfect for local play."
     },
     {
+        projectName: "Data Visualizations",
+        link: "https://austin-weeks.github.io/D3-Data-Visualizations",
+        shortDescription: "A collection of data visualizations created using D3.js."
+    },
+    {
         projectName: "Calculator",
         link: "https://austin-weeks.github.io/calculator",
         shortDescription: "A simple online calculator. Involves state management and string parsing using regex.  Built with React & TypeScript."
